@@ -1,0 +1,106 @@
+@font-face {
+        font-family: 'Gidole-Regular';
+        src: url('/fonts/Gidole-Regular.eot');
+        src: local('☺'), url('/fonts/Gidole-Regular.woff') format('woff'), url('/fonts/Gidole-Regular.ttf') format('truetype'), url('/fonts/Gidole-Regular.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'Gidolinya-Regular';
+        src: url('/fonts/Gidolinya-Regular.eot');
+        src: local('☺'), url('/fonts/Gidolinya-Regular.woff') format('woff'), url('/fonts/Gidolinya-Regular.ttf') format('truetype'), url('/fonts/Gidolinya-Regular.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
+/* ALL DISPLAYS
+ */
+h1, h2, h3, h4, h5 { family: 'Gidole-Regular'; }
+
+a, a:visited {
+    color: #FFB254;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    color: #FFE4C3;
+    text-decoration: underline;
+}
+
+.center-me { margin: 0 auto; }
+
+/* Mobile Default
+ */
+h1 { 
+    font-size: 4rem; 
+    margin-left: -.75rem;
+    margin-bottom: 0;
+}
+h2 { 
+    font-size: 2rem; 
+    margin-bottom: 3rem;
+}
+h3 { font-size: 3rem; }
+
+
+img.logo {
+    height: 125px;
+    width: 125px;
+}
+
+.brand {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.card { 
+    margin: 0;
+    padding: 3rem 7.5rem;
+    font-family: 'Gidolinya-Regular';
+    background: #000 url('/images/codebg-mobi.gif') no-repeat;
+    background-position: 0 0;
+    color: #fff;
+}
+.card h3 { display: none; }
+.card .contact { width: 200px; }
+.card .contact span { display: block; }
+
+/* Desktop fallback
+ */
+@media (min-width: 550px) {
+
+    h1 { 
+        font-size: 14rem; 
+        margin-left: -.75rem;
+        margin-bottom: 0;
+    }
+    h2 { 
+        font-size: 4rem; 
+        margin-bottom: 3rem;
+    }
+    h3 { font-size: 3rem; }
+
+    img.logo {
+        height: 250px;
+        width: 250px;
+    }
+
+    .center-me { margin: 0 auto; }
+
+    .brand {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .card { 
+        margin: 0;
+        padding: 10rem;
+        font-family: 'Gidolinya-Regular';
+        background: #000 url('/images/codebg-full.gif') no-repeat;
+        color: #fff;
+    }
+    .card h3 { display: none; }
+    .card .contact { width: 200px; }
+    .card .contact span { display: block; }
+}
