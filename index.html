@@ -3,12 +3,27 @@
 <head>
 
     <meta charset="utf-8">
+
     <title>GOINTO - Software and Technical Services</title>
+
     <meta name="description" content="GOINTO, LLC provides quality software and technical services.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="GOINTO - Software and Technical Services">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gointo.software">
+    <meta property="og:image" content="https://gointo.software/images/gointo_logo-plain-large.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="250">
+    <meta property="og:image:height" content="250">
+    <meta property="og:site_name" content="GOINTO">
+    <meta property="og:description" content="Software and technical services.">
+    <meta property="og:locale" content="en_US">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/gointo.css">
+
     <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
@@ -18,24 +33,24 @@
         </header>
         <div class="row">
             <div class="twelve column brand">
-                <img class="logo" src="/images/gointo_logo.png" alt="GOINTO, LLC Logo" />
+                <img itemprop="logo" class="logo" src="/images/gointo_logo.png" alt="GOINTO, LLC Logo" />
                 <h1>GOINTO</h1>
                 <h2>Software and Technical Services</h2>
             </div>
         </div>
     </div>
-    <div class="card u-full-width u-cf">
+    <div class="card u-full-width u-cf" itemscope itemtype="http://schema.org/Organization">
         <h3>Contact</h3>
         <div class="center-me u-cf">
             <div class="u-full-width">
-                <div class="contact u-pull-left">
-                    <span>GOINTO, LLC</span>
-                    <span>PO Box 297</span>
-                    <span>Philipsburg, MT 59858</span>
+                <div class="contact u-pull-left" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="name">GOINTO, LLC</span>
+                    <span itemprop="streetAddress">PO Box 297</span>
+                    <span itemprop="addressLocality">Philipsburg, MT 59858</span>
                 </div>
                 <div class="contact u-pull-left" style="margin-top: 1rem">
-                    <span><a href="mailto:contact@gointo.software">contact@gointo.software</a></span>
-                    <span><a href="tel:12088819810">1 208 881 9810</a></span>
+                    <span itemprop="email"><a href="mailto:contact@gointo.software">contact@gointo.software</a></span>
+                    <span itemprop="telephone"><a href="tel:12088819810">1 208 881 9810</a></span>
                 </div>
             </div>
         </div>
