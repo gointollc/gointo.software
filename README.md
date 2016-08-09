@@ -1,2 +1,2 @@
 # gointo.software
-GoInto public site
+GOINTO, LLC public site at https://gointo.software
